@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/search_label"
+    android:hint="搜索央视节目"
+    android:voiceSearchMode="showVoiceSearchButton|launchWebSearch"
+    android:searchSuggestAuthority="com.example.tvapp.search"
+    android:searchSuggestSelection=" ?" />

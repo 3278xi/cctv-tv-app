@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="48dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📺 央视动画"
+            android:textColor="@color/text_primary"
+            android:textSize="48sp"
+            android:layout_marginBottom="60dp"
+            android:focusable="false" />
+
+        <Button
+            android:id="@+id/btn_cartoon"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/nav_button_bg"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="🎬  动画片"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/btn_tv_series"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/nav_button_bg"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="📺  电视剧"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/btn_documentary"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/nav_button_bg"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="🌍  纪录片"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/nav_button_bg"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="▶  继续观看"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/continue_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/accent"
+            android:textSize="18sp"
+            android:layout_marginTop="-8dp"
+            android:layout_marginBottom="16dp"
+            android:focusable="false" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:background="@drawable/nav_button_bg"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="🔍  搜索"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:focusable="true" />
+
+    </LinearLayout>
+</FrameLayout>

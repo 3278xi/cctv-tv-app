@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">央视动画</string>
+    <string name="search_label">搜索央视节目</string>
+    <string name="nav_home">首页</string>
+    <string name="nav_cartoon">动画片</string>
+    <string name="nav_tv_series">电视剧</string>
+    <string name="nav_documentary">纪录片</string>
+    <string name="nav_continue">继续观看</string>
+    <string name="nav_search">搜索</string>
+    <string name="no_history">暂无观看记录</string>
+    <string name="resume_play">已恢复至 %1$s 继续播放</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="clear_history">清除历史</string>
+    <string name="clear_history_confirm">确定清除所有观看记录？</string>
+    <string name="loading">加载中…</string>
+</resources>

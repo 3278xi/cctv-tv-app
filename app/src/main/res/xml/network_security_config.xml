@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 允许加载央视网所有资源 -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">tv.cctv.com</domain>
+        <domain includeSubdomains="true">cctv.com</domain>
+        <domain includeSubdomains="true">cctv.cn</domain>
+        <domain includeSubdomains="true">cntv.cn</domain>
+        <domain includeSubdomains="true">cctvpic.com</domain>
+    </domain-config>
+</network-security-config>
