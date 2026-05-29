@@ -60,8 +60,7 @@
         android:id="@+id/hot_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:focusable="false"
-        android:flexWrap="wrap" />
+        android:orientation="vertical"
+        android:focusable="false" />
 
 </LinearLayout>
